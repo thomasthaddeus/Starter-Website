@@ -5,6 +5,9 @@
 > Revised: August 2022
 _**By: Tj Scharlau**_
 
+
+
+
 - [IS 312: Web Design and Programming](#is-312-web-design-and-programming)
   - [PE01: Programming Exercise](#pe01-programming-exercise)
     - [Objective:](#objective)
@@ -13,6 +16,9 @@ _**By: Tj Scharlau**_
     - [Task #2: Create a CSS document.](#task-2-create-a-css-document)
     - [Task #3: Apply the styles](#task-3-apply-the-styles)
     - [Submission:](#submission)
+
+<details>
+<summary>Objectives & tasks of PE01</summary>
 
 ### Objective:
 
@@ -92,3 +98,5 @@ _**By: Tj Scharlau**_
 
 1. Now that you have completed the above tasks:
    1. You need to `zip` your files ( `HTML` and `CSS`) and submit them via Brightspace.
+
+</details>
