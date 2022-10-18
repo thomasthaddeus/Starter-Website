@@ -16,6 +16,9 @@ _**By: Tj Scharlau**_
     - [Task #2: Create a CSS document.](#task-2-create-a-css-document)
     - [Task #3: Apply the styles](#task-3-apply-the-styles)
     - [Submission:](#submission)
+  - [PE02: Programming Exercise](#pe02-programming-exercise)
+    - [Objective:](#objective-1)
+    - [Task #1:  Setup UI in the HTML/CSS](#task-1--setup-ui-in-the-htmlcss)
 
 <details>
 <summary>Objectives & tasks of PE01</summary>
@@ -98,5 +101,39 @@ _**By: Tj Scharlau**_
 
 1. Now that you have completed the above tasks:
    1. You need to `zip` your files ( `HTML` and `CSS`) and submit them via Brightspace.
+
+</details>
+
+<details>
+<summary>PE02 Instructions</summary>
+
+## PE02: Programming Exercise
+
+> Revised: Fall 2022
+
+1. **By: Tj Scharlau**
+
+### Objective:
+
+### Task #1:  Setup UI in the HTML/CSS
+For this task, you will be modifying the HTML and CSS files you created last week, to create a lightbulb on the page that the user can turn on and off.  You will need to use the following for this:
+1)	A HTML Form, with a button. The button should start with the text set to “OFF”.
+2)	Two images of a lightbulb, one in the ON state, and one in the OFF state.
+3)	For the image and the button on the form, you will need to use the id=”” attribute for the HTML elements.
+At this point, you should have an HTML file, with an image of a lightbulb that is off, and a button that has “Off” as it’s text. Both the image and the button should have unique IDs (such as bulb and switch respectively).
+Task #2:  “Wire” the switch to turn the light on and off.
+For this task, you will be “wiring” the switch to turn the light on and off.  You will accomplish this by writing a JavaScript function, that produces results  like: https://www.w3schools.com/js/js_intro.asp (Scroll down the page until you see the lightbulb image).
+ Unlike that demo, you should only have one button, and the bulb image.
+To “wire” the switch button, you need to write a JavaScript that will process the button and call a function.  That function should do the following:
+1)	Get the State of the Button (the label of the button).
+2)	Compare the returned label, and using an IF statement, determine what to do:
+a.	If the label is “Off” then it should switch the image to the Lightbulb On image, and change the label on the button to “On”
+b.	If the label is “On” then it should switch the image to the Lightbulb Off image and change the label on the button to “Off”.
+This task is successfully completed once you can toggle the lightbulb image by clicking the button.
+Some sections of your Collins Book that will help you complete this exercise:
+Chapter 18 – Page 342 – 349 – Basic DOM Manipulation
+You can use any public domain images for your exercise, but please remember to include them in your submission.
+Submission:
+Now that you have completed the above tasks, you need to zip your files (Executable and Source) and submit them via Brightspace.
 
 </details>
